@@ -373,7 +373,7 @@ class Pimgento_Attribute_Model_Import extends Pimgento_Core_Model_Import_Abstrac
 
             $model->setIsGlobal($global);
             $model->setIsUnique($data['unique']);
-            // $model->setIsFilterable($data['useable_as_grid_filter']);
+            $model->setIsFilterable($data['useable_as_grid_filter']);
             // $model->setIsFilterableInSearch($data['useable_as_grid_filter']);
             // $model->setUsedInProductListing($data['useable_as_grid_column']);
 
